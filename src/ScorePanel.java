@@ -36,10 +36,10 @@ public class ScorePanel extends JPanel {
 		this.add(scoreLabel);
 		this.add(timerLabel);
 		
-		timerLabel.setText("Time remaining: 01:00");
+		timerLabel.setText("Time remaining: 02:00");
 		
 		seconds=0;
-		minutes=1;
+		minutes=2;
 		
 		countdownTimer();
 	}
